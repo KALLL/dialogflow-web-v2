@@ -22,7 +22,7 @@ Vue.prototype.history = () => {
         return false
     }
 }
-
+// hell
 /* (global) Currently selected language or fallback language (en). Needs to be a function, since it's reactive. No need for vuex there */
 Vue.prototype.lang = () => {
     if (Vue.prototype.history()) return sessionStorage.getItem('lang') || config.fallback_lang
